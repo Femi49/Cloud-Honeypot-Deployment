@@ -56,23 +56,42 @@ Real SSH management access was moved to a **custom high port (64295)** and locke
 - `3389/tcp` (RDP)
 - `64295/tcp` — real SSH admin access, restricted to a single trusted IP
 
-📁 Repository Structure
+## 📁 Repository Structure
 
+```text
 tpot-aws-honeypot/
-|-- README.md
-|-- images/
-|   |-- aws-security-group-rules.png
-|   |-- tpot-installation-terminal.png
-|   |-- ec2-terminal-updates.png
-|   |-- tpot-service-active-status.png
-|   |-- tpot-web-dashboard.png
-|   |-- attack-map-fresh-deployment.png
-|   |-- attack-map-live-feed.png
-|   |-- attack-map-live-feed-after-18h.png
-|   |-- kibana-honeypot-attacks-24h.png
-|   |-- kibana-attacks-by-port-country-os.png
-|   |-- kibana-suricata-alerts-credential-tagclouds.png
-|   |-- attacker-ip-reputation-lookup.png
-|   `-- hydra-ssh-bruteforce-test.
+│
+├── README.md
+│
+├── images/
+│   ├── aws-security-group-rules.png
+│   ├── tpot-installation-terminal.png
+│   ├── ec2-terminal-updates.png
+│   ├── tpot-service-active-status.png
+│   ├── tpot-web-dashboard.png
+│   ├── attack-map-fresh-deployment.png
+│   ├── attack-map-live-feed.png
+│   ├── attack-map-live-feed-after-18h.png
+│   ├── kibana-honeypot-attacks-24h.png
+│   ├── kibana-attacks-by-port-country-os.png
+│   ├── kibana-suricata-alerts-credential-tagclouds.png
+│   ├── attacker-ip-reputation-lookup.png
+│   └── hydra-ssh-bruteforce-test.png
+│
+└── documentation/
+    ├── deployment.md
+    ├── monitoring.md
+    └── findings.md-
+```
+⚠️ Disclaimer
+
+This project was conducted for educational, defensive security research, and cybersecurity portfolio purposes.
+
+The honeypot was intentionally exposed to internet traffic to observe attack activity. No unauthorized access to third-party systems was performed as part of this project.
+
+
+
+
+
 
 
